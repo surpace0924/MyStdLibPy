@@ -1,0 +1,4 @@
+<map id="MyStdLibPy.Vector.Vector2.Vector2.rotate" name="MyStdLibPy.Vector.Vector2.Vector2.rotate">
+<area shape="rect" id="node1" title="このベクトルを原点中心にangle[rad]回転" alt="" coords="239,5,424,47"/>
+<area shape="rect" id="node2" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ae2c7c9322860cc7f1e228b89749f7ef0" title="指定座標中心(rot_x, rot_y)に回転" alt="" coords="5,5,191,47"/>
+</map>

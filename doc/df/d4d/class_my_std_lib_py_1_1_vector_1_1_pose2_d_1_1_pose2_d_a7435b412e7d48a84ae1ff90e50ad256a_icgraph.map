@@ -1,0 +1,4 @@
+<map id="MyStdLibPy.Vector.Pose2D.Pose2D.rotate" name="MyStdLibPy.Vector.Pose2D.Pose2D.rotate">
+<area shape="rect" id="node1" title="このベクトルを原点中心にangle[rad]回転" alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a9bdb936d8aa18333cf744387221746fe" title="指定座標中心(rot_x, rot_y)に回転" alt="" coords="5,5,192,47"/>
+</map>
