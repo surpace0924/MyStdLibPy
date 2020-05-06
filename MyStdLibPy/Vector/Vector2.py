@@ -1,9 +1,8 @@
+# -*- coding: utf-8 -*-
 ##
 # @file Vector2.py
 # @brief 2要素のベクトル
 
-
-# -*- coding: utf-8 -*-
 import numpy as np
 
 ##
@@ -40,25 +39,9 @@ class Vector2:
     # @brief 極座標形式でこのベクトルを設定
     # @param r: 原点からの距離
     # @param angle: 原点との角度
-    def setByPolar(self, r,  angle):
+    def setByPolar(self, r, angle):
         self.x = r * np.cos(angle)
         self.y = r * np.sin(angle)
-
-    ##
-    # @brief このベクトルを原点中心にangle[rad]回転
-    # @param angle: 回転させる角度[rad]
-    def rotate(self, angle):
-        p = Vector2.Vector2(0, 0)
-        rotate(p, angle)
-
-    ##
-    # @brief 指定座標中心(rot_x, rot_y)に回転
-    # @param rot_x: 回転中心のx座標
-    # @param rot_y: 回転中心のy座標
-    # @param angle: 回転させる角度[rad]
-    def rotate(self, rot_x,  rot_y,  angle):
-        p = Vector2.Vector2(rot_x, rot_x)
-        rotate(p, angle)
 
     ##
     # @brief 座標oを中心にangleだけ回転
@@ -66,11 +49,12 @@ class Vector2:
     # @param angle: 回転させる角度[rad]
     def rotate(self, o, angle):
         p = Vector2.Vector2(self.x - o.x, self.y - o.y)
-        p.rotate(angle)
+        p.x = p.x * np.cos(angle) - p.y * np.sin(angle)
+        p.y = p.x * np.sin(angle) + p.y * np.cos(angle)
         p.x += o.x
         p.y += o.y
-        x = p.x
-        y = p.y
+        self.x = p.x
+        self.y = p.y
 
     ##
     # @brief このベクターをフォーマットした文字列を返す
@@ -131,7 +115,7 @@ class Vector2:
     # @param b: 2つ目のベクトル
     # @return 2つのベクトルの距離を返す
     def getDistance(self, a,  b):
-        p = Vector2.Vector2(b - a)
+        v = Vector2.Vector2(b - a)
         return v.magnitude()
 
     ##
@@ -141,7 +125,11 @@ class Vector2:
     # @param t: 媒介変数
     # @return 補間点
     def leap(self, a, b, t):
-        t = guard(t, 0.0, 1.0)
+        if (t > 1):
+            t = 1
+        if (t < 0):
+            t = 0
+
         v = a
         v.x += (b.x - a.x) * t
         v.y += (b.y - a.y) * t
