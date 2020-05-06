@@ -1,4 +1,4 @@
 # MyStdLib
 
 ## ドキュメント
-https://surpace0924.github.io/MyStdLibPy/doc/
+https://surpace0924.github.io/MyStdLibPy/doc/index.html
