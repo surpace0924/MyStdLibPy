@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['set_32',['set',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a764ceb07495dd86f8db38527e71a805f',1,'MyStdLibPy.Vector.Pose2D.Pose2D.set()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a7e65482f24e901ce1cc489cd23aee0c3',1,'MyStdLibPy.Vector.Vector2.Vector2.set()']]],
-  ['setbypolar_33',['setByPolar',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#ad2fb91cee91cf2b564429914c87bf85c',1,'MyStdLibPy.Vector.Pose2D.Pose2D.setByPolar()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a21344cc86c9e9dbc506e471bad5ff652',1,'MyStdLibPy.Vector.Vector2.Vector2.setByPolar()']]],
-  ['sqrlength_34',['sqrLength',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#ae628553f8fee7d84de0eb0e134c77cf5',1,'MyStdLibPy.Vector.Pose2D.Pose2D.sqrLength()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a52557c8970c145c80447e0ce72f65b73',1,'MyStdLibPy.Vector.Vector2.Vector2.sqrLength()']]],
-  ['sqrmagnitude_35',['sqrMagnitude',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a1ffb5c9a6cf39fd23bc94e905f935858',1,'MyStdLibPy.Vector.Pose2D.Pose2D.sqrMagnitude()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a67a5fed3b00226326b82993edeaa7665',1,'MyStdLibPy.Vector.Vector2.Vector2.sqrMagnitude()']]]
+  ['control_32',['Control',['../d8/d6d/namespace_my_std_lib_py_1_1_control.html',1,'MyStdLibPy']]],
+  ['fbcontroller_33',['FBController',['../d1/d7e/namespace_my_std_lib_py_1_1_control_1_1_f_b_controller.html',1,'MyStdLibPy::Control']]],
+  ['magnitude_34',['magnitude',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#ac42fb1c8963a9aeefa60a05fda46498c',1,'MyStdLibPy.Vector.Pose2D.Pose2D.magnitude()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3ae4d3bce694d506a1b884289033d6ed',1,'MyStdLibPy.Vector.Vector2.Vector2.magnitude()']]],
+  ['mode_35',['Mode',['../da/da7/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1_mode.html',1,'MyStdLibPy.Control.FBController.PID.PID.Mode'],['../db/dca/class_my_std_lib_py_1_1_control_1_1_pure_pursuit_control_1_1_pure_pursuit_control_1_1_mode.html',1,'MyStdLibPy.Control.PurePursuitControl.PurePursuitControl.Mode'],['../d2/d05/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1param__t.html#a74757cf16b23c4cdf7e0d4069420346a',1,'MyStdLibPy.Control.FBController.PID.PID.param_t.mode()'],['../dd/d49/class_my_std_lib_py_1_1_control_1_1_pure_pursuit_control_1_1_pure_pursuit_control_1_1param__t.html#ac944789ba1ac695ef71b5eb3fe0ac7b6',1,'MyStdLibPy.Control.PurePursuitControl.PurePursuitControl.param_t.mode()']]],
+  ['mystdlibpy_36',['MyStdLibPy',['../de/db8/namespace_my_std_lib_py.html',1,'']]],
+  ['pid_37',['PID',['../de/d14/namespace_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d.html',1,'MyStdLibPy::Control::FBController']]],
+  ['pose2d_38',['Pose2D',['../da/d97/namespace_my_std_lib_py_1_1_vector_1_1_pose2_d.html',1,'MyStdLibPy::Vector']]],
+  ['purepursuitcontrol_39',['PurePursuitControl',['../d4/da0/namespace_my_std_lib_py_1_1_control_1_1_pure_pursuit_control.html',1,'MyStdLibPy::Control']]],
+  ['vector_40',['Vector',['../db/d41/namespace_my_std_lib_py_1_1_vector.html',1,'MyStdLibPy']]],
+  ['vector2_41',['Vector2',['../d8/d40/namespace_my_std_lib_py_1_1_vector_1_1_vector2.html',1,'MyStdLibPy::Vector']]]
 ];

@@ -11,37 +11,40 @@
 class PID:
     ##
     # @brief モードリスト
-    class Mode(Enum):
-        pPID = 0  # < 位置型PID
-        sPID = 1  # < 速度型PID
-        PI_D = 2  # < 微分先行型PID
-        I_PD = 3  # < 比例微分先行型PID
+    class Mode:
+        def __init__(self):
+            self.pPID = 0  # < 位置型PID
+            self.sPID = 1  # < 速度型PID
+            self.PI_D = 2  # < 微分先行型PID
+            self.I_PD = 3  # < 比例微分先行型PID
 
     ##
     # @brief ゲイン構造体
     class gain_t:
-        Kp = 0  # < 比例ゲイン
-        Ki = 0  # < 積分ゲイン
-        Kd = 0  # < 微分ゲイン
+        def __init__(self, Kp=0, Ki=0, Kd=0):
+            self.Kp = Kp  # < 比例ゲイン
+            self.Ki = Ki  # < 積分ゲイン
+            self.Kd = Kd  # < 微分ゲイン
 
     ##
     # @brief パラメータ構造体
     class param_t:
-        mode = Mode()           # < PIDモード
-        gain = gain_t()         # < PIDゲイン
-        need_saturation = False  # < 出力制限を行うか
-        output_min = 0          # < 出力制限時の最小値
-        output_max = 0          # < 出力制限時の最大値
+        def __init__(self):
+            self.mode = PID.Mode().pPID   # < PIDモード
+            self.gain = PID.gain_t()      # < PIDゲイン
+            self.need_saturation = False  # < 出力制限を行うか
+            self.output_min = 0           # < 出力制限時の最小値
+            self.output_max = 0           # < 出力制限時の最大値
 
     ##
     # @brief コンストラクタ
-    def __init__(self):
-        self.__param = param_t()
+    def __init__(self, param=None):
+        self.__param = param
         self.__diff = [0] * 3  # 0: 現在, 1: 過去, 2: 大過去
-        self.__prev_val
-        self.__prev_target
-        self.__integral
-        self.__output
+        self.__prev_val = 0
+        self.__prev_target = 0
+        self.__integral = 0
+        self.__output = 0
 
     ##
     # @brief リセット
@@ -88,13 +91,13 @@ class PID:
         self.__diff[0] = target - now_val  # 最新の偏差
         self.__integral += (self.__diff[0] + self.__diff[1]) * (dt / 2.0)  # 積分
 
-        if (self.__param.mode == Mode.pPID):
+        if (self.__param.mode == PID.Mode().pPID):
             self.__output = self.__calculate_pPID(target, now_val, dt)
-        elif (self.__param.mode == Mode.sPID):
+        elif (self.__param.mode == PID.Mode().pPID):
             self.__output = self.__calculate_sPID(target, now_val, dt)
-        elif (self.__param.mode == Mode.PI_D):
+        elif (self.__param.mode == PID.Mode().pPID):
             self.__output = self.__calculate_PI_D(target, now_val, dt)
-        elif (self.__param.mode == Mode.I_PD):
+        elif (self.__param.mode == PID.Mode().pPID):
             self.__output = self.__calculate_I_PD(target, now_val, dt)
 
         # 次回ループのために今回の値を前回の値にする

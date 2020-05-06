@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['magnitude_22',['magnitude',['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3ae4d3bce694d506a1b884289033d6ed',1,'MyStdLibPy::Vector::Vector2::Vector2']]],
-  ['mystdlibpy_23',['MyStdLibPy',['../de/db8/namespace_my_std_lib_py.html',1,'']]],
-  ['pose2d_24',['Pose2D',['../da/d97/namespace_my_std_lib_py_1_1_vector_1_1_pose2_d.html',1,'MyStdLibPy::Vector']]],
-  ['vector_25',['Vector',['../db/d41/namespace_my_std_lib_py_1_1_vector.html',1,'MyStdLibPy']]],
-  ['vector2_26',['Vector2',['../d8/d40/namespace_my_std_lib_py_1_1_vector_1_1_vector2.html',1,'MyStdLibPy::Vector']]]
+  ['gain_20',['gain',['../d2/d05/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1param__t.html#a75ab39b6d5d71f5dff42c8714d231b0e',1,'MyStdLibPy::Control::FBController::PID::PID::param_t']]],
+  ['gain_5ft_21',['gain_t',['../d6/d50/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1gain__t.html',1,'MyStdLibPy::Control::FBController::PID::PID']]],
+  ['getangle_22',['getAngle',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a7bd98a574d0b8d21e54594653b1de267',1,'MyStdLibPy.Vector.Pose2D.Pose2D.getAngle()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a437bdb00ab287ca3650f86302ba68a61',1,'MyStdLibPy.Vector.Vector2.Vector2.getAngle()']]],
+  ['getcontrolval_23',['getControlVal',['../df/d5b/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d.html#ac08851f4a49c29245b34694599707ea2',1,'MyStdLibPy.Control.FBController.PID.PID.getControlVal()'],['../de/d6a/class_my_std_lib_py_1_1_control_1_1_pure_pursuit_control_1_1_pure_pursuit_control.html#aec15a9338dfcfeb6f5f85a17c2fd019f',1,'MyStdLibPy.Control.PurePursuitControl.PurePursuitControl.getControlVal()']]],
+  ['getdistance_24',['getDistance',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a7702df4ecf7d8bd403bda1782f033e0c',1,'MyStdLibPy.Vector.Pose2D.Pose2D.getDistance()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#acbb873dbbaa53eeb1a0d0d16c48c4a40',1,'MyStdLibPy.Vector.Vector2.Vector2.getDistance()']]],
+  ['getdot_25',['getDot',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#aab608ec9239bb9db6a795d72fba1089d',1,'MyStdLibPy.Vector.Pose2D.Pose2D.getDot()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a85797385bc3784fe7d442f97cd721f76',1,'MyStdLibPy.Vector.Vector2.Vector2.getDot()']]]
 ];

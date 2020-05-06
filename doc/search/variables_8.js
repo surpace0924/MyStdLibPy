@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['output_5fmax_207',['output_max',['../db/db4/structmy_std_1_1_p_i_d_1_1param__t.html#adaa14479c78b8fe1c9f669a5238069c8',1,'myStd::PID::param_t']]],
-  ['output_5fmin_208',['output_min',['../db/db4/structmy_std_1_1_p_i_d_1_1param__t.html#a6f7dc74aee8224d53b91a42f0bc0edbf',1,'myStd::PID::param_t']]]
+  ['pi_5fd_151',['PI_D',['../da/da7/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1_mode.html#a175d5fcfe0dbae6d7260e8a95beaa067',1,'MyStdLibPy::Control::FBController::PID::PID::Mode']]],
+  ['ppid_152',['pPID',['../da/da7/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1_mode.html#a0ca26b1c8f4095e769f5a22594d040ff',1,'MyStdLibPy::Control::FBController::PID::PID::Mode']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['equals_16',['equals',['../df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a3e303fd907eaa87ffe017368b3a0661a',1,'MyStdLibPy.Vector.Pose2D.Pose2D.equals()'],['../d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#abc309ee3466bb9fed225794d1f0c8da5',1,'MyStdLibPy.Vector.Vector2.Vector2.equals()']]]
+  ['diff_16',['diff',['../db/dca/class_my_std_lib_py_1_1_control_1_1_pure_pursuit_control_1_1_pure_pursuit_control_1_1_mode.html#a2d8109f2de055c08e493ed9db8a21f14',1,'MyStdLibPy::Control::PurePursuitControl::PurePursuitControl::Mode']]]
 ];

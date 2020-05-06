@@ -12,10 +12,10 @@ import numpy as np
 
 class Vector2:
     ##
-    # @brief コンストラクタ 直交座標(_x, _y)で初期化
-    def __init__(self, _x, _y):
-        self.x = _x  # < 2次元直交座標におけるx成分
-        self.y = _y  # < 2次元直交座標におけるy成分
+    # @brief コンストラクタ 直交座標(x, y)で初期化
+    def __init__(self, x=0, y=0):
+        self.x = x  # < 2次元直交座標におけるx成分
+        self.y = y  # < 2次元直交座標におけるy成分
 
     ##
     # @brief 指定されたベクトルがこのベクトルと等しい場合にtrueを返す
@@ -30,10 +30,10 @@ class Vector2:
 
     ##
     # @brief 直交座標形式でこのベクトルを設定
-    # @param _x: 指定するベクトル
-    def set(self, _x,  _y):
-        self.x = _x
-        self.y = _y
+    # @param x: 指定するベクトル
+    def set(self, x,  y):
+        self.x = x
+        self.y = y
 
     ##
     # @brief 極座標形式でこのベクトルを設定
@@ -60,7 +60,7 @@ class Vector2:
     # @brief このベクターをフォーマットした文字列を返す
     # @return フォーマットした文字列
     def toString(self):
-        return '(' + self.x + ", " + self.y + ')'
+        return '(' + str(self.x) + ", " + str(self.y) + ')'
 
     ##
     # @brief このベクトルの長さを返す
@@ -98,6 +98,7 @@ class Vector2:
     # @param a: 1つ目のベクトル
     # @param b: 2つ目のベクトル
     # @return 2つのベクトルの内積
+    @staticmethod
     def getDot(self, a,  b):
         return (a.x * b.x + a.y * b.y)
 
@@ -106,14 +107,16 @@ class Vector2:
     # @param a: 1つ目のベクトル
     # @param b: 2つ目のベクトル
     # @return 2つのベクトルのなす角[rad]
+    @staticmethod
     def getAngle(self, a,  b):
-        return np.tan2(b.y - a.y, b.x - a.x)
+        return np.arctan2(b.y - a.y, b.x - a.x)
 
     ##
     # @brief 2つのベクトルの距離を返す
     # @param a: 1つ目のベクトル
     # @param b: 2つ目のベクトル
     # @return 2つのベクトルの距離を返す
+    @staticmethod
     def getDistance(self, a,  b):
         v = Vector2.Vector2(b - a)
         return v.magnitude()
@@ -124,6 +127,7 @@ class Vector2:
     # @param b: 2つ目のベクトル
     # @param t: 媒介変数
     # @return 補間点
+    @staticmethod
     def leap(self, a, b, t):
         if (t > 1):
             t = 1

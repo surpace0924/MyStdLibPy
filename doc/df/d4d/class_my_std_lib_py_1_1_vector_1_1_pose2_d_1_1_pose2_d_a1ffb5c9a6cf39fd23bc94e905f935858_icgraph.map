@@ -1,10 +1,11 @@
 <map id="MyStdLibPy.Vector.Pose2D.Pose2D.sqrMagnitude" name="MyStdLibPy.Vector.Pose2D.Pose2D.sqrMagnitude">
-<area shape="rect" id="node1" title="このベクトルの長さの2乘を返す" alt="" coords="708,101,895,143"/>
-<area shape="rect" id="node2" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a85146723a9a7a9209ad2303a8a124da1" title="このベクトルの長さを返す" alt="" coords="239,5,425,47"/>
-<area shape="rect" id="node5" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3ae4d3bce694d506a1b884289033d6ed" title="このベクトルの長さを返す" alt="" coords="474,68,659,109"/>
-<area shape="rect" id="node7" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#ae628553f8fee7d84de0eb0e134c77cf5" title="このベクトルの長さを返す" alt="" coords="473,133,660,175"/>
-<area shape="rect" id="node8" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a52557c8970c145c80447e0ce72f65b73" title="このベクトルの長さの2乘を返す" alt="" coords="474,199,659,240"/>
-<area shape="rect" id="node3" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ab8c30a394e8d99b451215412c6337a4b" title="このベクトルの大きさを1にする" alt="" coords="5,5,191,47"/>
-<area shape="rect" id="node4" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ae38ce7379bdf6dc5ee0f91e954178cf8" title="大きさが1のこのベクトルを返す" alt="" coords="5,71,191,112"/>
-<area shape="rect" id="node6" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3a664c54828bb21bf6e626c62c1b4342" title="このベクトルの長さを返す" alt="" coords="239,71,425,112"/>
+<area shape="rect" id="node1" title="このベクトルの長さの2乘を返す" alt="" coords="708,136,895,177"/>
+<area shape="rect" id="node2" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3ae4d3bce694d506a1b884289033d6ed" title="このベクトルの長さを返す" alt="" coords="474,136,659,177"/>
+<area shape="rect" id="node6" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#ac42fb1c8963a9aeefa60a05fda46498c" title="このベクトルの長さを返す" alt="" coords="473,71,660,112"/>
+<area shape="rect" id="node9" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a52557c8970c145c80447e0ce72f65b73" title="このベクトルの長さの2乘を返す" alt="" coords="474,201,659,243"/>
+<area shape="rect" id="node3" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3a664c54828bb21bf6e626c62c1b4342" title="このベクトルの長さを返す" alt="" coords="239,136,425,177"/>
+<area shape="rect" id="node4" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ab8c30a394e8d99b451215412c6337a4b" title="このベクトルの大きさを1にする" alt="" coords="5,23,191,64"/>
+<area shape="rect" id="node5" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ae38ce7379bdf6dc5ee0f91e954178cf8" title="大きさが1のこのベクトルを返す" alt="" coords="5,104,191,145"/>
+<area shape="rect" id="node7" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a7702df4ecf7d8bd403bda1782f033e0c" title="2つのベクトルの距離を返す" alt="" coords="239,71,425,112"/>
+<area shape="rect" id="node8" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a85146723a9a7a9209ad2303a8a124da1" title="このベクトルの長さを返す" alt="" coords="239,5,425,47"/>
 </map>

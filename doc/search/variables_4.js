@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['half_5fpi_199',['HALF_PI',['../d1/d68/_my_std_functions_8h.html#ad0661cafa18be7ccadefb27b6b809264',1,'MyStdFunctions.h']]]
+  ['kd_143',['Kd',['../d6/d50/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1gain__t.html#a93f1efc63857252bf1eaaf6d1cc872d7',1,'MyStdLibPy::Control::FBController::PID::PID::gain_t']]],
+  ['ki_144',['Ki',['../d6/d50/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1gain__t.html#a2c6d75a045bc2bcca5116e86078e3d2f',1,'MyStdLibPy::Control::FBController::PID::PID::gain_t']]],
+  ['kp_145',['Kp',['../d6/d50/class_my_std_lib_py_1_1_control_1_1_f_b_controller_1_1_p_i_d_1_1_p_i_d_1_1gain__t.html#a5d1225b0681b2938a9603e67e00bd889',1,'MyStdLibPy::Control::FBController::PID::PID::gain_t']]]
 ];

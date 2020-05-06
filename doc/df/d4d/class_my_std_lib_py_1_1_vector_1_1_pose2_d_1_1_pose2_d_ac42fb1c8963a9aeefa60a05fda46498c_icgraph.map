@@ -1,0 +1,8 @@
+<map id="MyStdLibPy.Vector.Pose2D.Pose2D.magnitude" name="MyStdLibPy.Vector.Pose2D.Pose2D.magnitude">
+<area shape="rect" id="node1" title="このベクトルの長さを返す" alt="" coords="473,71,660,112"/>
+<area shape="rect" id="node2" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a7702df4ecf7d8bd403bda1782f033e0c" title="2つのベクトルの距離を返す" alt="" coords="239,5,425,47"/>
+<area shape="rect" id="node3" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#a3a664c54828bb21bf6e626c62c1b4342" title="このベクトルの長さを返す" alt="" coords="239,136,425,177"/>
+<area shape="rect" id="node6" href="$df/d4d/class_my_std_lib_py_1_1_vector_1_1_pose2_d_1_1_pose2_d.html#a85146723a9a7a9209ad2303a8a124da1" title="このベクトルの長さを返す" alt="" coords="239,71,425,112"/>
+<area shape="rect" id="node4" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ab8c30a394e8d99b451215412c6337a4b" title="このベクトルの大きさを1にする" alt="" coords="5,71,191,112"/>
+<area shape="rect" id="node5" href="$d9/d33/class_my_std_lib_py_1_1_vector_1_1_vector2_1_1_vector2.html#ae38ce7379bdf6dc5ee0f91e954178cf8" title="大きさが1のこのベクトルを返す" alt="" coords="5,136,191,177"/>
+</map>
